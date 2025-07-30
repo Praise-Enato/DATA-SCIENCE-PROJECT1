@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "project1-energy-analysis"
+version = "0.1.0"
+description = "US weather + energy analysis pipeline"
+authors = ["Praise Enato"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "*"
+requests = "*"
+streamlit = "*"
+plotly = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

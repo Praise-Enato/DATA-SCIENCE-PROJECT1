@@ -1,0 +1,30 @@
+# Python virtual environment
+praise_venv/
+venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables and secrets
+.env
+config.yaml
+
+# Logs
+logs/
+*.log
+
+# Data files
+data/raw/
+data/processed/
+*.csv
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS specific files
+.DS_Store
+Thumbs.db

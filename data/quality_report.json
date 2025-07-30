@@ -1,0 +1,167 @@
+{
+  "new_york": {
+    "missing_weather": {
+      "date": 0,
+      "TMAX": 0,
+      "TMIN": 0
+    },
+    "missing_energy": {
+      "date": 0,
+      "respondent": 0,
+      "respondent-name": 0,
+      "type": 0,
+      "type-name": 0,
+      "timezone": 0,
+      "timezone-description": 0,
+      "demand": 0,
+      "value-units": 0
+    },
+    "outliers_weather": {
+      "TMAX>130": 0,
+      "TMIN<-50": 0
+    },
+    "outliers_energy": {
+      "demand<0": 447
+    },
+    "freshness_weather": {
+      "latest": "2025-07-16",
+      "days_old": 3
+    },
+    "freshness_energy": {
+      "latest": "2025-07-19",
+      "days_old": 0
+    }
+  },
+  "phoenix": {
+    "missing_weather": {
+      "date": 0,
+      "TMAX": 0,
+      "TMIN": 0
+    },
+    "missing_energy": {
+      "date": 0,
+      "respondent": 0,
+      "respondent-name": 0,
+      "type": 0,
+      "type-name": 0,
+      "timezone": 0,
+      "timezone-description": 0,
+      "demand": 0,
+      "value-units": 0
+    },
+    "outliers_weather": {
+      "TMAX>130": 0,
+      "TMIN<-50": 0
+    },
+    "outliers_energy": {
+      "demand<0": 414
+    },
+    "freshness_weather": {
+      "latest": "2025-07-16",
+      "days_old": 3
+    },
+    "freshness_energy": {
+      "latest": "2025-07-19",
+      "days_old": 0
+    }
+  },
+  "seattle": {
+    "missing_weather": {
+      "date": 0,
+      "TMAX": 0,
+      "TMIN": 0
+    },
+    "missing_energy": {
+      "date": 0,
+      "respondent": 0,
+      "respondent-name": 0,
+      "type": 0,
+      "type-name": 0,
+      "timezone": 0,
+      "timezone-description": 0,
+      "demand": 0,
+      "value-units": 0
+    },
+    "outliers_weather": {
+      "TMAX>130": 0,
+      "TMIN<-50": 0
+    },
+    "outliers_energy": {
+      "demand<0": 460
+    },
+    "freshness_weather": {
+      "latest": "2025-07-16",
+      "days_old": 3
+    },
+    "freshness_energy": {
+      "latest": "2025-07-19",
+      "days_old": 0
+    }
+  },
+  "chicago": {
+    "missing_weather": {
+      "date": 0,
+      "TMAX": 0,
+      "TMIN": 0
+    },
+    "missing_energy": {
+      "date": 0,
+      "respondent": 0,
+      "respondent-name": 0,
+      "type": 0,
+      "type-name": 0,
+      "timezone": 0,
+      "timezone-description": 0,
+      "demand": 0,
+      "value-units": 0
+    },
+    "outliers_weather": {
+      "TMAX>130": 0,
+      "TMIN<-50": 0
+    },
+    "outliers_energy": {
+      "demand<0": 0
+    },
+    "freshness_weather": {
+      "latest": "2025-07-16",
+      "days_old": 3
+    },
+    "freshness_energy": {
+      "latest": "2025-07-19",
+      "days_old": 0
+    }
+  },
+  "houston": {
+    "missing_weather": {
+      "date": 0,
+      "TMAX": 0,
+      "TMIN": 0
+    },
+    "missing_energy": {
+      "date": 0,
+      "respondent": 0,
+      "respondent-name": 0,
+      "type": 0,
+      "type-name": 0,
+      "timezone": 0,
+      "timezone-description": 0,
+      "demand": 0,
+      "value-units": 0
+    },
+    "outliers_weather": {
+      "TMAX>130": 0,
+      "TMIN<-50": 0
+    },
+    "outliers_energy": {
+      "demand<0": 266
+    },
+    "freshness_weather": {
+      "latest": "2025-07-16",
+      "days_old": 3
+    },
+    "freshness_energy": {
+      "latest": "2025-07-19",
+      "days_old": 0
+    }
+  }
+}
