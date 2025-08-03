@@ -67,27 +67,48 @@ streamlit run dashboards/app.py
 
 ```
 project1-energy-analysis/
-├── README.md                 # Business-focused project summary
-├── AI_USAGE.md              # AI assistance documentation
-├── pyproject.toml           # Dependencies (using uv)
+├── .gitignore
+├── pytest.ini
+├── pyproject.toml
+│
 ├── config/
-│   └── config.yaml          # API keys, cities list
-├── src/
-│   ├── data_fetcher.py      # API interaction module
-│   ├── data_processor.py    # Cleaning and transformation
-│   ├── analysis.py          # Statistical analysis
-│   └── pipeline.py          # Main orchestration
-├── dashboards/
-│   └── app.py               # Streamlit application
-├── logs/
-│   └── pipeline.log         # Execution logs
+│   └── config.yaml             # NOAA token, EIA key, city list, fetch_days
+│
+├── dashboards/                 
+│   ├── app.py                  # Main Streamlit dashboard with 4 visualizations
+│   └── requirements.txt        # (optional) pinned deps for this subfolder
+│
 ├── data/
-│   ├── raw/                 # Original API responses
-│   └── processed/           # Clean, analysis-ready data
-|   
+│   ├── raw/                    # Raw CSVs produced by the pipeline
+│   │   ├── new_york_weather.csv
+│   │   ├── new_york_energy.csv
+│   │   ├── chicago_weather.csv
+│   │   ├── chicago_energy.csv
+│   │   └── … (one pair per city)
+│   │
+│   ├── processed/              # Cleaned & merged city‐level CSVs
+│   │   ├── new_york.csv        # columns: date, TMAX, TMIN, demand
+│   │   ├── chicago.csv
+│   │   └── … (one per city)
+│   │
+│   └── quality_report.json     # JSON output of data_quality_report.generate_report()
+│
 ├── notebooks/
-│   └── exploration.ipynb    # Initial analysis (optional)
-├── tests/
-│   └── test_pipeline.py     # Basic unit tests
-└── video_link.md            # Link to your presentation
+│   └── exploration.ipynb       # EDA & prototyping notebook
+│
+├── src/                        # Core modules for pipeline & analysis
+│   ├── data_fetcher.py         # NOAA + EIA API fetch functions
+│   ├── data_processor.py       # clean_weather, clean_energy, merge_weather_energy
+│   ├── data_quality_report.py  # missing/outlier/freshness checks + report
+│   ├── analysis.py             # any extra stats routines (e.g. correlation)
+│   └── pipeline.py             # orchestration: fetch → save raw → process → report
+│
+├── tests/                      # Pytest suite
+│   ├── conftest.py             # adds src/ to sys.path
+│   ├── test_pipeline.py        # tests for load_config, clean/merge logic
+│   ├── test_data_fetcher.py    # monkeypatched API fetch tests
+│   ├── test_data_processor.py  # clean_energy, clean_weather tests
+│   └── test_data_quality.py    # generate_report on fake CSVs
+│
+└── video_link.md               # link to Loom demo
 ```
