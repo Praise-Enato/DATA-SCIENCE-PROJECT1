@@ -21,14 +21,14 @@
       "TMIN<-50": 0
     },
     "outliers_energy": {
-      "demand<0": 447
+      "demand<0": 442
     },
     "freshness_weather": {
-      "latest": "2025-07-16",
-      "days_old": 3
+      "latest": "2025-07-29",
+      "days_old": 5
     },
     "freshness_energy": {
-      "latest": "2025-07-19",
+      "latest": "2025-08-03",
       "days_old": 0
     }
   },
@@ -54,14 +54,14 @@
       "TMIN<-50": 0
     },
     "outliers_energy": {
-      "demand<0": 414
+      "demand<0": 409
     },
     "freshness_weather": {
-      "latest": "2025-07-16",
+      "latest": "2025-07-31",
       "days_old": 3
     },
     "freshness_energy": {
-      "latest": "2025-07-19",
+      "latest": "2025-08-03",
       "days_old": 0
     }
   },
@@ -87,14 +87,14 @@
       "TMIN<-50": 0
     },
     "outliers_energy": {
-      "demand<0": 460
+      "demand<0": 455
     },
     "freshness_weather": {
-      "latest": "2025-07-16",
+      "latest": "2025-07-31",
       "days_old": 3
     },
     "freshness_energy": {
-      "latest": "2025-07-19",
+      "latest": "2025-08-03",
       "days_old": 0
     }
   },
@@ -123,11 +123,11 @@
       "demand<0": 0
     },
     "freshness_weather": {
-      "latest": "2025-07-16",
-      "days_old": 3
+      "latest": "2025-07-29",
+      "days_old": 5
     },
     "freshness_energy": {
-      "latest": "2025-07-19",
+      "latest": "2025-08-03",
       "days_old": 0
     }
   },
@@ -153,14 +153,14 @@
       "TMIN<-50": 0
     },
     "outliers_energy": {
-      "demand<0": 266
+      "demand<0": 270
     },
     "freshness_weather": {
-      "latest": "2025-07-16",
+      "latest": "2025-07-31",
       "days_old": 3
     },
     "freshness_energy": {
-      "latest": "2025-07-19",
+      "latest": "2025-08-03",
       "days_old": 0
     }
   }

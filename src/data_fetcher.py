@@ -61,14 +61,10 @@ def fetch_historical_energy(region: str, days: int, api_key: str) -> pd.DataFram
     Fetches last `days` days of daily demand from EIA v2 (EIA-930).
     """
     # calculate the end date
+    # calculate the end date
     end   = datetime.now().date()
-    # EIA-930 data is daily, so we need to go back `days`
-    # and include the end date.
-    if days < 90:
-        raise ValueError("EIA-930 data requires at least 90 days of history.")
-    
-    # Calculate the start date
-    start = end - timedelta(days=days)
+    # Calculate the start date (for days=1, start == end)
+    start = end - timedelta(days=days-1)
     url   = "https://api.eia.gov/v2/electricity/rto/daily-region-data/data/"
     params = {
         "api_key":            api_key,
