@@ -7,15 +7,27 @@ from datetime import timedelta
 import numpy as np
 
 # ─── 1. Load data ─────────────────────────────────────────────
-PROCESSED = Path("data/processed")
-cities = [p.stem for p in PROCESSED.glob("*.csv")]
+
+# ─── Resolve paths ─────────────────────────────────────────────
+BASE_DIR  = Path(__file__).resolve().parent.parent
+RAW_DIR   = BASE_DIR / "data" / "raw"
+PROC_DIR  = BASE_DIR / "data" / "processed"
+
+# ─── Find all cities by processed CSV filenames ───────────────
+cities = [p.stem for p in PROC_DIR.glob("*.csv")]
+
+# Graceful error if no data
+if not cities:
+    st.error(f"❌ No processed data found in `{PROC_DIR}`. "
+             "Run `python src/pipeline.py` locally and commit the results.")
+    st.stop()
 
 @st.cache_data
 def load_city_data(city_slug):
     """
     Reads the cleaned & merged CSV from data/processed/.
     """
-    path = PROCESSED / f"{city_slug}.csv"
+    path = PROC_DIR / f"{city_slug}.csv"
     df = pd.read_csv(path, parse_dates=["date"])
     return df
 
@@ -33,9 +45,6 @@ date_range = st.sidebar.date_input(
 )
 sel_cities = st.sidebar.multiselect("Cities", cities, default=cities)
 
-# City selector for the time series plot
-# all_opts = ["All Cities"] + cities
-# ts_city = st.sidebar.selectbox("Time Series: select city", all_opts, index=0)
 
 # Filter data by sidebar selections
 filtered = {
