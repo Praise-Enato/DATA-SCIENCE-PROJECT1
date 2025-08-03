@@ -67,16 +67,27 @@ streamlit run dashboards/app.py
 
 ```
 project1-energy-analysis/
+├── README.md                 # Business-focused project summary
+├── AI_USAGE.md              # AI assistance documentation
+├── pyproject.toml           # Dependencies (using uv)
 ├── config/
-│   └── config.yaml
+│   └── config.yaml          # API keys, cities list
 ├── src/
-│   ├── pipeline.py
-│   ├── data_fetcher.py
-│   └── data_processor.py
+│   ├── data_fetcher.py      # API interaction module
+│   ├── data_processor.py    # Cleaning and transformation
+│   ├── analysis.py          # Statistical analysis
+│   └── pipeline.py          # Main orchestration
 ├── dashboards/
-│   └── app.py
+│   └── app.py               # Streamlit application
+├── logs/
+│   └── pipeline.log         # Execution logs
 ├── data/
-│   ├── raw/
-│   └── processed/
-└── logs/
+│   ├── raw/                 # Original API responses
+│   └── processed/           # Clean, analysis-ready data
+|   
+├── notebooks/
+│   └── exploration.ipynb    # Initial analysis (optional)
+├── tests/
+│   └── test_pipeline.py     # Basic unit tests
+└── video_link.md            # Link to your presentation
 ```
