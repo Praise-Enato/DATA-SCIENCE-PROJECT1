@@ -1,5 +1,4 @@
 date,TMAX,TMIN,respondent,respondent-name,type,type-name,timezone,timezone-description,demand,value-units
-2025-05-04,60.980000000000004,42.08,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,505596,megawatthours
 2025-05-05,69.98,42.08,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,569712,megawatthours
 2025-05-06,77.0,48.02,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,578349,megawatthours
 2025-05-07,66.02,46.04,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,570803,megawatthours
@@ -88,3 +87,4 @@ date,TMAX,TMIN,respondent,respondent-name,type,type-name,timezone,timezone-descr
 2025-07-29,84.91999999999999,57.02,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,704783,megawatthours
 2025-07-30,84.91999999999999,57.92,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,708895,megawatthours
 2025-07-31,80.06,60.08,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,689450,megawatthours
+2025-08-01,75.02,57.02,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,707834,megawatthours

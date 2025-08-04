@@ -1,5 +1,4 @@
 date,TMAX,TMIN,respondent,respondent-name,type,type-name,timezone,timezone-description,demand,value-units
-2025-05-04,59.0,44.96,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,1883414,megawatthours
 2025-05-05,60.980000000000004,46.94,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,2005714,megawatthours
 2025-05-06,77.0,46.94,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,1984170,megawatthours
 2025-05-07,75.02,48.02,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,1986506,megawatthours
@@ -86,3 +85,6 @@ date,TMAX,TMIN,respondent,respondent-name,type,type-name,timezone,timezone-descr
 2025-07-27,87.98,73.04,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,2754920,megawatthours
 2025-07-28,91.94,75.02,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,3044589,megawatthours
 2025-07-29,93.02,69.98,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,3114391,megawatthours
+2025-07-30,80.06,68.0,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,3094180,megawatthours
+2025-07-31,75.92,64.04,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,2743892,megawatthours
+2025-08-01,75.02,60.980000000000004,PJM,"PJM Interconnection, LLC",D,Demand,Arizona,Arizona,2289985,megawatthours

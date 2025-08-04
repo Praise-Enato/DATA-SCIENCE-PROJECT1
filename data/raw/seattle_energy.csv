@@ -1,24 +1,4 @@
 date,respondent,respondent-name,type,type-name,timezone,timezone-description,demand,value-units
-2025-05-04,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,505596,megawatthours
-2025-05-04,CISO,California Independent System Operator,D,Demand,Central,Central,504939,megawatthours
-2025-05-04,CISO,California Independent System Operator,D,Demand,Eastern,Eastern,504630,megawatthours
-2025-05-04,CISO,California Independent System Operator,D,Demand,Mountain,Mountain,505458,megawatthours
-2025-05-04,CISO,California Independent System Operator,D,Demand,Pacific,Pacific,505596,megawatthours
-2025-05-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Arizona,Arizona,480173,megawatthours
-2025-05-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Central,Central,479573,megawatthours
-2025-05-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Eastern,Eastern,479148,megawatthours
-2025-05-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Mountain,Mountain,479921,megawatthours
-2025-05-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Pacific,Pacific,480173,megawatthours
-2025-05-04,CISO,California Independent System Operator,NG,Net generation,Arizona,Arizona,447661,megawatthours
-2025-05-04,CISO,California Independent System Operator,NG,Net generation,Central,Central,447672,megawatthours
-2025-05-04,CISO,California Independent System Operator,NG,Net generation,Eastern,Eastern,448110,megawatthours
-2025-05-04,CISO,California Independent System Operator,NG,Net generation,Mountain,Mountain,447592,megawatthours
-2025-05-04,CISO,California Independent System Operator,NG,Net generation,Pacific,Pacific,447661,megawatthours
-2025-05-04,CISO,California Independent System Operator,TI,Total interchange,Arizona,Arizona,-61233,megawatthours
-2025-05-04,CISO,California Independent System Operator,TI,Total interchange,Central,Central,-61183,megawatthours
-2025-05-04,CISO,California Independent System Operator,TI,Total interchange,Eastern,Eastern,-60267,megawatthours
-2025-05-04,CISO,California Independent System Operator,TI,Total interchange,Mountain,Mountain,-61554,megawatthours
-2025-05-04,CISO,California Independent System Operator,TI,Total interchange,Pacific,Pacific,-61233,megawatthours
 2025-05-05,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,569712,megawatthours
 2025-05-05,CISO,California Independent System Operator,D,Demand,Central,Central,565546,megawatthours
 2025-05-05,CISO,California Independent System Operator,D,Demand,Eastern,Eastern,562802,megawatthours
@@ -1819,8 +1799,28 @@ date,respondent,respondent-name,type,type-name,timezone,timezone-description,dem
 2025-08-02,CISO,California Independent System Operator,TI,Total interchange,Eastern,Eastern,-67842,megawatthours
 2025-08-02,CISO,California Independent System Operator,TI,Total interchange,Mountain,Mountain,-67652,megawatthours
 2025-08-02,CISO,California Independent System Operator,TI,Total interchange,Pacific,Pacific,-67548,megawatthours
+2025-08-03,CISO,California Independent System Operator,D,Demand,Arizona,Arizona,643676,megawatthours
+2025-08-03,CISO,California Independent System Operator,D,Demand,Central,Central,644155,megawatthours
+2025-08-03,CISO,California Independent System Operator,D,Demand,Eastern,Eastern,644250,megawatthours
+2025-08-03,CISO,California Independent System Operator,D,Demand,Mountain,Mountain,643913,megawatthours
+2025-08-03,CISO,California Independent System Operator,D,Demand,Pacific,Pacific,643676,megawatthours
 2025-08-03,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Arizona,Arizona,604625,megawatthours
 2025-08-03,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Central,Central,606209,megawatthours
 2025-08-03,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Eastern,Eastern,606715,megawatthours
 2025-08-03,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Mountain,Mountain,605526,megawatthours
 2025-08-03,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Pacific,Pacific,604625,megawatthours
+2025-08-03,CISO,California Independent System Operator,NG,Net generation,Arizona,Arizona,592996,megawatthours
+2025-08-03,CISO,California Independent System Operator,NG,Net generation,Central,Central,593259,megawatthours
+2025-08-03,CISO,California Independent System Operator,NG,Net generation,Eastern,Eastern,592448,megawatthours
+2025-08-03,CISO,California Independent System Operator,NG,Net generation,Mountain,Mountain,593362,megawatthours
+2025-08-03,CISO,California Independent System Operator,NG,Net generation,Pacific,Pacific,592996,megawatthours
+2025-08-03,CISO,California Independent System Operator,TI,Total interchange,Arizona,Arizona,-48450,megawatthours
+2025-08-03,CISO,California Independent System Operator,TI,Total interchange,Central,Central,-48611,megawatthours
+2025-08-03,CISO,California Independent System Operator,TI,Total interchange,Eastern,Eastern,-48874,megawatthours
+2025-08-03,CISO,California Independent System Operator,TI,Total interchange,Mountain,Mountain,-48722,megawatthours
+2025-08-03,CISO,California Independent System Operator,TI,Total interchange,Pacific,Pacific,-48450,megawatthours
+2025-08-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Arizona,Arizona,669383,megawatthours
+2025-08-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Central,Central,666176,megawatthours
+2025-08-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Eastern,Eastern,664035,megawatthours
+2025-08-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Mountain,Mountain,667894,megawatthours
+2025-08-04,CISO,California Independent System Operator,DF,Day-ahead demand forecast,Pacific,Pacific,669383,megawatthours

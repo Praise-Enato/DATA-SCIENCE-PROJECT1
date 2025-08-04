@@ -33,7 +33,7 @@ def load_city_data(city_slug):
 
 data = {city: load_city_data(city) for city in cities}
 
-# ─── 2. Sidebar Controls ──────────────────────────────────────
+# ─── 2. Sidebar Controls ──────────────────────────────
 st.sidebar.title("Controls")
 min_date = min(df["date"].min() for df in data.values())
 max_date = max(df["date"].max() for df in data.values())
@@ -128,7 +128,7 @@ map_placeholder.plotly_chart(fig_geo, use_container_width=True)
 
 
 
-# ─── 6. Visualization 2: Dual-Axis Time Series (corrected) ───────────────
+# ─── 6. Visualization 2: Dual-Axis Time Series ───────────────
 
 # Ensure ts_city is chosen from sel_cities only:
 ts_city = st.sidebar.selectbox("Time Series: select city", sel_cities, index=0)

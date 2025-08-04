@@ -1,5 +1,4 @@
 date,TMAX,TMIN,respondent,respondent-name,type,type-name,timezone,timezone-description,demand,value-units
-2025-05-04,82.94,59.0,ERCO,"Electric Reliability Council of Texas, Inc.",D,Demand,Arizona,Arizona,1114796,megawatthours
 2025-05-05,80.96,60.08,ERCO,"Electric Reliability Council of Texas, Inc.",D,Demand,Arizona,Arizona,1151316,megawatthours
 2025-05-06,84.02,66.92,ERCO,"Electric Reliability Council of Texas, Inc.",D,Demand,Arizona,Arizona,1185381,megawatthours
 2025-05-07,84.91999999999999,69.08,ERCO,"Electric Reliability Council of Texas, Inc.",D,Demand,Arizona,Arizona,1222940,megawatthours
@@ -88,3 +87,4 @@ date,TMAX,TMIN,respondent,respondent-name,type,type-name,timezone,timezone-descr
 2025-07-29,98.96000000000001,80.06,ERCO,"Electric Reliability Council of Texas, Inc.",D,Demand,Arizona,Arizona,1640643,megawatthours
 2025-07-30,100.94,80.06,ERCO,"Electric Reliability Council of Texas, Inc.",D,Demand,Arizona,Arizona,1618342,megawatthours
 2025-07-31,95.0,82.94,ERCO,"Electric Reliability Council of Texas, Inc.",D,Demand,Arizona,Arizona,1648174,megawatthours
+2025-08-01,96.98,82.04,ERCO,"Electric Reliability Council of Texas, Inc.",D,Demand,Arizona,Arizona,1624453,megawatthours

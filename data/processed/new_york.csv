@@ -1,5 +1,4 @@
 date,TMAX,TMIN,respondent,respondent-name,type,type-name,timezone,timezone-description,demand,value-units
-2025-05-04,69.08,60.08,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,349654,megawatthours
 2025-05-05,60.980000000000004,57.02,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,375255,megawatthours
 2025-05-06,64.04,57.02,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,360106,megawatthours
 2025-05-07,73.94,55.04,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,357887,megawatthours
@@ -86,3 +85,6 @@ date,TMAX,TMIN,respondent,respondent-name,type,type-name,timezone,timezone-descr
 2025-07-27,84.02,73.04,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,501539,megawatthours
 2025-07-28,93.91999999999999,75.92,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,582872,megawatthours
 2025-07-29,96.98,78.08,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,613515,megawatthours
+2025-07-30,95.0,75.02,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,601768,megawatthours
+2025-07-31,89.06,64.94,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,515935,megawatthours
+2025-08-01,73.04,62.959999999999994,NYIS,New York Independent System Operator,D,Demand,Arizona,Arizona,413280,megawatthours
